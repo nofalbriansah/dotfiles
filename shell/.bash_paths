@@ -1,0 +1,11 @@
+# ~/.bash_paths
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# my PATH
+export PATH="$PATH:/home/nbs/flutter/bin"
+export PATH="$PATH:/home/nbs/.bun/bin/bun"
