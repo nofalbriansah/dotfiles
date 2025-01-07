@@ -1,3 +1,4 @@
+```
 .
 ├── README.md
 ├── fastfetch
@@ -82,3 +83,4 @@
             └── themes
                 ├── Marble-blue-dark
                 └── Marble-blue-light
+```
