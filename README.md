@@ -52,10 +52,6 @@
 │       └── starship.toml
 ├── ssh
 │   └── .ssh
-│       ├── id_ed25519
-│       ├── id_ed25519.pub
-│       ├── known_hosts
-│       └── known_hosts.old
 ├── terminal
 │   └── .config
 │       ├── ghostty
@@ -65,22 +61,7 @@
     └── .local
         └── share
             ├── backgrounds
-            │   ├── 2024-12-27-08-29-36-forest.png
-            │   ├── 2024-12-27-08-31-47-planets.png
-            │   └── 2025-01-02-03-10-16-robot.jpg
             ├── fonts
-            │   ├── FiraCodeNerdFont-Bold.ttf
-            │   ├── FiraCodeNerdFont-Light.ttf
-            │   ├── FiraCodeNerdFont-Medium.ttf
-            │   ├── FiraCodeNerdFont-Regular.ttf
-            │   ├── FiraCodeNerdFont-Retina.ttf
-            │   └── FiraCodeNerdFont-SemiBold.ttf
             ├── icons
-            │   ├── Colloid
-            │   ├── Colloid-Dark
-            │   ├── Colloid-Light
-            │   └── Vimix-cursors
             └── themes
-                ├── Marble-blue-dark
-                └── Marble-blue-light
 ```
