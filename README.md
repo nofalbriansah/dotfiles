@@ -9,35 +9,7 @@
 │   └── .gitconfig
 ├── nix
 │   ├── home-manager
-│   │   └── home.nix
 │   └── nixos
-│       ├── configuration.nix
-│       ├── flake.lock
-│       ├── flake.nix
-│       ├── hardware-configuration.nix
-│       └── system
-│           ├── config
-│           │   ├── bootloader.nix
-│           │   ├── default.nix
-│           │   ├── env.nix
-│           │   ├── fonts.nix
-│           │   ├── gnome.nix
-│           │   ├── internationalisation.nix
-│           │   ├── network.nix
-│           │   ├── nix-config.nix
-│           │   ├── nvidia.nix
-│           │   ├── sound.nix
-│           │   ├── user.nix
-│           │   └── xserver.nix
-│           ├── default.nix
-│           ├── programs
-│           │   ├── app
-│           │   ├── default.nix
-│           │   ├── dev
-│           │   └── shell
-│           └── services
-│               ├── default.nix
-│               └── services.nix
 ├── shell
 │   ├── .bash_paths
 │   ├── .bashrc
