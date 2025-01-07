@@ -7,6 +7,7 @@
 │           └── config.jsonc
 ├── git
 │   └── .gitconfig
+├── nix
 ├── shell
 │   ├── .bash_paths
 │   ├── .bashrc
