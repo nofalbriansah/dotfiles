@@ -10,4 +10,4 @@ export PATH
 export ANDROID_HOME=/home/nbs/dev/Android/Sdk
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export PATH="$PATH:/home/nbs/dev/flutter/bin"
-export PATH="$PATH:/home/nbs/dev/.bun/bin/bun"
+export PATH="$PATH:/home/nbs/dev/bun/bin"

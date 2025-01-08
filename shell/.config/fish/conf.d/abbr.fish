@@ -12,6 +12,7 @@ if status is-interactive
    # .
    abbr --add .kitty "nano ~/dotfiles/terminal/.config/kitty/kitty.conf"
    abbr --add .fish "nano ~/dotfiles/shell/.config/fish/conf.d/abbr.fish"
+   abbr --add .bash "nano ~/dotfiles/shell/.bash_paths"
 
    # dev
    abbr --add hg "bunx blowfish-tools"
