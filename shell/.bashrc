@@ -21,3 +21,11 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

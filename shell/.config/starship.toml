@@ -1,5 +1,6 @@
 # Config
 add_newline = true
+command_timeout = 10000
 
 [username]
 show_always = true
