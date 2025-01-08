@@ -28,7 +28,8 @@
 │   └── .config
 │       ├── ghostty
 │       │   └── config
-│       └── nvim
+│       └── kitty
+│           └── kitty.conf
 └── themes
     └── .local
         └── share
