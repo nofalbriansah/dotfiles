@@ -9,6 +9,10 @@ if status is-interactive
    abbr --add edit gnome-text-editor
    abbr --add vim nvim
 	
+   # .
+   abbr --add .kitty "nano ~/dotfiles/terminal/.config/kitty/kitty.conf"
+   abbr --add .fish "nano ~/dotfiles/shell/.config/fish/conf.d/abbr.fish"
+
    # dev
    abbr --add hg "bunx blowfish-tools"
    abbr --add fld "flutter doctor -v"
