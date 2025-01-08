@@ -7,5 +7,7 @@ fi
 export PATH
 
 # my PATH
-export PATH="$PATH:/home/nbs/flutter/bin"
-export PATH="$PATH:/home/nbs/.bun/bin/bun"
+export ANDROID_HOME=/home/nbs/dev/Android/Sdk
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
+export PATH="$PATH:/home/nbs/dev/flutter/bin"
+export PATH="$PATH:/home/nbs/dev/.bun/bin/bun"

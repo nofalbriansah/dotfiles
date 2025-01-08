@@ -1,6 +1,6 @@
 if status is-interactive
    # terminal
-   abbr --add dot "cd /home/nbs/dotfiles"
+   abbr --add . "cd /home/nbs/dotfiles"
    abbr --add ff fastfetch
    abbr --add du "sudo dnf update && sudo dnf upgrade"
    abbr --add fu "flatpak update"
