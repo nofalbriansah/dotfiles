@@ -5,7 +5,7 @@ if status is-interactive
    abbr --add du "sudo dnf update && sudo dnf upgrade"
    abbr --add fu "flatpak update"
    abbr --add cl clear
-   abbr --add treed "tree -d -a -L 5"
+   abbr --add treed "tree -a -L 5"
    abbr --add edit gnome-text-editor
    abbr --add vim nvim
 	
