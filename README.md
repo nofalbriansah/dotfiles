@@ -4,37 +4,46 @@
 ├── fastfetch
 │   └── .config
 │       └── fastfetch
-│           └── config.jsonc
 ├── git
-│   └── .gitconfig
+├── gitui
+│   └── .config
+│       └── gitui
 ├── nix
 │   ├── home-manager
 │   └── nixos
+│       └── system
+│           ├── config
+│           ├── programs
+│           │   ├── app
+│           │   ├── dev
+│           │   └── shell
+│           └── services
 ├── shell
-│   ├── .bash_paths
-│   ├── .bashrc
 │   └── .config
-│       ├── fish
-│       │   ├── completions
-│       │   ├── conf.d
-│       │   │   └── abbr.fish
-│       │   ├── config.fish
-│       │   ├── fish_variables
-│       │   └── functions
-│       └── starship.toml
-├── ssh
-│   └── .ssh
+│       └── fish
+│           └── conf.d
 ├── terminal
 │   └── .config
 │       ├── ghostty
-│       │   └── config
-│       └── kitty
-│           └── kitty.conf
-└── themes
-    └── .local
-        └── share
-            ├── backgrounds
-            ├── fonts
-            ├── icons
-            └── themes
+│       ├── kitty
+│       └── nvim
+├── themes
+│   └── .local
+│       └── share
+│           ├── backgrounds
+│           ├── fonts
+│           ├── icons
+│           │   ├── Colloid
+│           │   ├── Colloid-Dark
+│           │   ├── Colloid-Light
+│           │   └── Vimix-cursors
+│           └── themes
+│               ├── Marble-blue-dark
+│               ├── Marble-blue-light
+│               ├── Orchis-Compact
+│               ├── Orchis-Dark-Compact
+│               └── Orchis-Light-Compact
+└── zed
+    └── .config
+        └── zed
 ```
