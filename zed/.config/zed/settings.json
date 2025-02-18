@@ -7,26 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ui_font_size": 18,
+  "buffer_font_size": 15,
+  "format_on_save": "on",
+  "base_keymap": "VSCode",
+  "icon_theme": "VSCode Icons (Dark)",
   "telemetry": {
     "metrics": false,
     "diagnostics": false
   },
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
     "dark": "VSCode Dark Modern"
   },
   "shell": {
     "path": "/bin/fish"
   },
-  "ui_font_size": 15,
-  "buffer_font_size": 15,
-  "format_on_save": "on",
-  "base_keymap": "VSCode",
-  "shell": {
-    "path": "/bin/fish"
-  },
-
   "editor": {
     "font_family": "FiraCode Nerd Font",
     "font_size": 15,
