@@ -1,6 +1,4 @@
-```
 .
-├── README.md
 ├── fastfetch
 │   └── .config
 │       └── fastfetch
@@ -41,6 +39,7 @@
 │           └── services
 │               ├── default.nix
 │               └── services.nix
+├── README.md
 ├── shell
 │   ├── .bash_paths
 │   ├── .bashrc
@@ -88,5 +87,6 @@
 └── zed
     └── .config
         └── zed
-            └── settings.json
-```
+            ├── settings.json
+            └── themes
+
