@@ -1,3 +1,4 @@
+```
 .
 ├── fastfetch
 │   └── .config
@@ -89,4 +90,4 @@
         └── zed
             ├── settings.json
             └── themes
-
+```
