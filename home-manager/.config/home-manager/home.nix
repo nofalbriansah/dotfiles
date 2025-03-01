@@ -56,7 +56,7 @@
 
   # Enable home-manager program
   programs.home-manager.enable = true;
-
+  
   # Enable Java program support
   programs.java = {
     enable = true;
