@@ -102,6 +102,7 @@
       ll = "eza -l";
       rmt = "rmtrash";
       ff = "fastfetch";
+      treed = "tree -L 5 -a";
       dot = "cd /home/nbs/dotfiles";
 
       # Dnf aliases
