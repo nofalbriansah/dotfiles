@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  # Enable unfree packages if necessary
+  # Enable unfree packages
   nixpkgs.config.allowUnfree = true;
 
   # Set up the user and home directory configuration
@@ -18,7 +18,7 @@
     "$HOME/dev/Android/Sdk/platform-tools"
   ];
   
-  # Set environment variables for Android SDK and Java
+  # Set environment variables
   home.sessionVariables = {
     ANDROID_HOME = "/home/nbs/dev/Android/Sdk";
   };
@@ -28,6 +28,7 @@
 
   # Packages to install for the home environment
   home.packages = with pkgs; [
+    corefonts
     nerd-fonts.fira-code
 
     wget
@@ -44,11 +45,16 @@
     eza #ls
     zoxide #cd
 
+    clang
+    cmake
+    ninja
+
     bun
     gitui
     go
     hugo
 
+    #gtk3 pkg-config | pkgconf-pkg-config gtk3-devel lzma-sdk-devel
     #kitty
     #neovim
     #nodePackages_latest.nodejs
