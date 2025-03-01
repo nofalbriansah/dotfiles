@@ -1,9 +1,0 @@
-shell-integration = fish
-command = "fish"
-
-theme = ayu
-cursor-style = "bar"
-font-family = "FiraCode Nerd Font"
-font-size = 12
-
-
