@@ -17,7 +17,7 @@
     "$HOME/.pub-cache/bin"
     "$HOME/dev/Android/Sdk/platform-tools"
   ];
-  
+
   # Set environment variables
   home.sessionVariables = {
     ANDROID_HOME = "/home/nbs/dev/Android/Sdk";
@@ -65,13 +65,13 @@
 
   # Enable home-manager program
   programs.home-manager.enable = true;
-  
+
   # Enable Java program support
   programs.java = {
     enable = true;
     package = pkgs.openjdk21;
   };
-  
+
   # Git configuration
   programs.git = {
     enable = true;
@@ -150,7 +150,7 @@
       active_tab_font_style = "bold";
 
       # Set Fish as default shell in Kitty
-      shell = "/home/nbs/.nix-profile/bin/fish"; 
+      shell = "/home/nbs/.nix-profile/bin/fish";
     };
   };
 
