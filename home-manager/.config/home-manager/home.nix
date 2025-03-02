@@ -21,6 +21,7 @@
   # Set environment variables
   home.sessionVariables = {
     ANDROID_HOME = "/home/nbs/dev/Android/Sdk";
+    #GOROOT = "${pkgs.go}/lib/go";
   };
 
   # Enable font configuration
@@ -34,6 +35,7 @@
     wget
     curl
     nixpkgs-fmt
+    ocs-url
     rmtrash
     zip
     unzip
@@ -48,7 +50,9 @@
     clang
     cmake
     ninja
-
+    firebase-tools
+    android-tools
+    nodePackages_latest.nodejs
     bun
     gitui
     go
@@ -57,7 +61,6 @@
     #gtk3 pkg-config | pkgconf-pkg-config gtk3-devel lzma-sdk-devel
     #kitty
     #neovim
-    #nodePackages_latest.nodejs
   ];
 
   # Enable home-manager program
@@ -110,6 +113,7 @@
       ff = "fastfetch";
       treed = "tree -L 5 -a";
       dot = "cd /home/nbs/dotfiles";
+      dev = "cd /mnt/Data/development/coding";
 
       # Dnf aliases
       du = "sudo dnf update && sudo dnf upgrade";
@@ -131,7 +135,7 @@
     settings = {
       # Font
       font_family = "FiraCode Nerd Font";
-      font_size = 13;
+      font_size = 12;
 
       # Scrolling dan Behavior
       enable_audio_bell = true;
