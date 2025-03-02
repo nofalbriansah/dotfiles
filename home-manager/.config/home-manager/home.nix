@@ -115,6 +115,13 @@
       dot = "cd /home/nbs/dotfiles";
       dev = "cd /mnt/Data/development/coding";
 
+      # Git aliases
+      gis = "git status";
+      gia = "git add .";
+      gic = "git commit -m";
+      gip = "git push";
+      gil = "git pull";
+
       # Dnf aliases
       du = "sudo dnf update && sudo dnf upgrade";
       dd = "sudo dnf autoremove";
