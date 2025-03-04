@@ -11,6 +11,7 @@
 
   # Path Bash and Fish
   home.sessionPath = [
+    "$HOME/.nix-profile/bin"
     "$HOME/.local/bin"
     "$HOME/bin"
     "$HOME/dev/flutter/bin"
@@ -82,14 +83,13 @@
   # Enable Starship prompt
   programs.starship = {
     enable = true;
-
     settings = {
+      # git_status.command_timeout = 2000; # (default 500)
       username = {
         show_always = true;
         style_user = "bold green";
         style_root = "bold red";
       };
-
       hostname = {
         ssh_only = false;
         format = "[$hostname]($style) ";
@@ -114,13 +114,6 @@
       treed = "tree -L 5 -a";
       dot = "cd /home/nbs/dotfiles";
       dev = "cd /mnt/Data/development/coding";
-
-      # Git aliases
-      gis = "git status";
-      gia = "git add .";
-      gic = "git commit -m";
-      gip = "git push";
-      gil = "git pull";
 
       # Dnf aliases
       du = "sudo dnf update && sudo dnf upgrade";
