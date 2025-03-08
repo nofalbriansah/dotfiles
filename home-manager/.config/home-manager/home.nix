@@ -122,6 +122,7 @@
 
       # Nix aliases
       nfmt = "nixpkgs-fmt /home/nbs/.config/home-manager/home.nix";
+      hmu = "nix-channel --update";
       hmd = "nix-collect-garbage -d";
       hms = "home-manager switch";
       hmg = "home manager generation";
