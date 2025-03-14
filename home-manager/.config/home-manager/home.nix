@@ -16,11 +16,16 @@
     "$HOME/bin"
     "$HOME/.pub-cache/bin"
     "$HOME/dev/Android/Sdk/platform-tools"
+    "$HOME/dev/Android/Sdk/ndk-build"
+    "$HOME/dev/flutter/bin"
   ];
 
   # Environment Variables
   home.sessionVariables = {
+    JAVA_HOME = "${pkgs.openjdk21}/lib/openjdk";
     ANDROID_HOME = "/home/nbs/dev/Android/Sdk";
+    FLUTTER_HOME = "/home/nbs/dev/flutter/bin";
+    NODE_PATH = "${pkgs.nodePackages_latest.nodejs}/lib/node_modules";
     GOROOT = "${pkgs.go}/lib/go";
   };
 
@@ -43,6 +48,7 @@
     nano
     tree
     stow
+    bat #cat
     eza #ls
     zoxide #cd
 
@@ -51,7 +57,6 @@
     ninja
     firebase-tools
     android-tools
-    flutter
     scrcpy
     nodePackages_latest.nodejs
     bun
@@ -59,7 +64,7 @@
     go
     hugo
 
-    #gtk3 pkg-config | pkgconf-pkg-config gtk3-devel lzma-sdk-devel
+    #libgtk-3-dev
   ];
 
   # Enable Home Manager
