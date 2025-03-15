@@ -26,7 +26,8 @@
     ANDROID_HOME = "/home/nbs/dev/Android/Sdk";
     FLUTTER_HOME = "/home/nbs/dev/flutter/bin";
     NODE_PATH = "${pkgs.nodePackages_latest.nodejs}/lib/node_modules";
-    GOROOT = "${pkgs.go}/lib/go";
+    CHROME_EXECUTABLE = "/usr/bin/google-chrome-stable";
+    # GOROOT = "${pkgs.go}/lib/go";
   };
 
   # Enable font configuration
@@ -35,12 +36,14 @@
   # Home Packages
   home.packages = with pkgs; [
     corefonts
+    inter
     nerd-fonts.fira-code
+    nerd-fonts.jetbrains-mono
 
     wget
     curl
-    nixpkgs-fmt
     rmtrash
+    nixpkgs-fmt
     zip
     unzip
     unrar
@@ -128,12 +131,12 @@
       rmt = "rmtrash";
       ff = "fastfetch";
       treed = "tree -L 5 -a";
-      dot = "cd /home/nbs/dotfiles";
+      dot = "cd /home/nbs/dev/dotfiles";
       dev = "cd /mnt/Data/development/coding";
 
-      # Apt aliases
-      au = "sudo nala update && sudo nala upgrade";
-      ad = "sudo nala autoremove";
+      # Pacman aliases
+      pu = "sudo pacman -Syu";
+      pd = "sudo pacman -Rs $(pacman -Qdtq)";
       fu = "flatpak update";
 
       # Nix aliases
@@ -230,4 +233,3 @@
     };
   };
 }
-
